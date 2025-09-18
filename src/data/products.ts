@@ -2,15 +2,10 @@ import type { Product } from '@/types';
 
 export const PRODUCTS: Product[] = [
   {
-    id: 'pulse',
-    name: 'StarSmith Pulse',
-    summary: 'Lightweight analytics and feature flags for SaaS teams.',
+    id: 'addictions',
+    name: 'iSober - Quit Addictions',
+    summary: 'Quit Addictions forever. Write & complete your To-Dos and journal every day.',
+             // A habit tracker with a to-do list to replace bad habits with meaningful tasks.
     metrics: { users: 4200, uptime: 99.98 },
-  },
-  {
-    id: 'forge',
-    name: 'StarSmith Forge',
-    summary: 'Internal developer platform for spinning up microservices fast.',
-    metrics: { users: 980, uptime: 99.95 },
   },
 ];
