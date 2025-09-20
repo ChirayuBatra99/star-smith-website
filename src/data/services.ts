@@ -19,10 +19,10 @@ export const SERVICES: Service[] = [
     summary: 'Modern infra with zero-downtime releases and observability.',
     features: ['Kubernetes', 'IaC (Terraform)', 'Monitoring & alerting'],
   },
-  {
+  [
     id: 'ui-ux',
     name: 'Product Design (UI/UX)',
     summary: 'Elegant, accessible interfaces that convert.',
     features: ['Design systems', 'Rapid prototyping', 'Accessibility (WCAG)'],
-  },
+  ],
 ];
