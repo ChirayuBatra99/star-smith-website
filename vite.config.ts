@@ -4,6 +4,11 @@ import path from 'node:path';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/star-smith-website/',
+  build: {
+    outDir: 'build'
+  },
+
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
