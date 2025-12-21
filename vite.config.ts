@@ -4,7 +4,6 @@ import path from 'node:path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/star-smith-website/',
   build: {
     outDir: 'build'
   },
