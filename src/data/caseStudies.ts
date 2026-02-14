@@ -1,6 +1,7 @@
 import type { CaseStudy } from '@/types';
 
 export const CASE_STUDIES: CaseStudy[] = [
+  [
   {
     id: 'fintech-scale',
     client: 'FinEdge',
@@ -15,4 +16,5 @@ export const CASE_STUDIES: CaseStudy[] = [
     excerpt: 'A real-time recommendation engine powered by feature store + LLM.',
     tags: ['Feature store', 'NLP', 'Realtime'],
   },
+]
 ];

@@ -23,7 +23,7 @@ export default function Navbar() {
                 to={link.href}
                 className={({ isActive }) => `text-sm font-medium hover:text-brand-700 ${isActive ? 'text-brand-700' : 'text-zinc-700 dark:text-zinc-300'}`}
               >
-                {link.label}
+                {/* {link.label} */}
               </NavLink>
             </li>
           ))}
@@ -32,7 +32,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <ThemeToggle />
           <button onClick={() => setOpen(!open)} className="md:hidden p-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800" aria-label="Toggle Menu">
-            {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            {/* {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />} */}
           </button>
         </div>
       </nav>
@@ -44,7 +44,7 @@ export default function Navbar() {
               <li key={link.href}>
                 <NavLink
                   to={link.href}
-                  onClick={() => setOpen(false)}
+                  // onClick={() => setOpen(false)}
                   className={({ isActive }) => `block px-2 py-2 rounded-lg text-sm hover:bg-zinc-100 dark:hover:bg-zinc-800 ${isActive ? 'text-brand-700' : 'text-zinc-700'}`}
                 >
                   {link.label}
